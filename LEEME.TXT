@@ -9,3 +9,6 @@ Paso 6: click en la base de datos nueva creada y despues click en importar
 Paso 7: darle click a seleccionar archivo y seleccionar el archivo votacion.sql despues importar 
 Paso 8: abrir Sublime text, despues File y Open folder y seleccionar la carpeta formularioVotacion 
 Paso 9: una vez listo todos los pasos anteriores, abrir google chrome por ejemplo y en la ruta escribir localhost/formularioVotacion/
+
+Version PHP: Version 8
+Version phpMyAdmin: Version 5.1.1
