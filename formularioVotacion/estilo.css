@@ -1,0 +1,52 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        form {
+            width: 400px;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Divide en dos columnas iguales */
+            grid-gap: 8px; /* Espacio entre celdas */
+        }
+
+        label {
+            text-align: left;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        input, label, select {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .checkbox-item input {
+            margin-right: 8px;
+        }
+
+        button {
+            grid-column: span 2;
+            width: 20%;
+            padding: 8px;
+            font-size: 14px;
+            margin-left: 0;
+        }
